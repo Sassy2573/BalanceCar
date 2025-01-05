@@ -192,6 +192,18 @@
           }
         ],
         "folders": []
+      },
+      {
+        "name": "Hardware",
+        "files": [
+          {
+            "path": "Hardware/PWM.c"
+          },
+          {
+            "path": "Hardware/PWM.h"
+          }
+        ],
+        "folders": []
       }
     ]
   },
