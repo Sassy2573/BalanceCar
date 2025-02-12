@@ -15,12 +15,12 @@ char eb_str[7];    // 1个符号位+5个整数位+1个字符串结尾\0
 char angle_str[7]; // 1个符号位+3个整数位+1个小数点+1个小数位+1个字符串结尾\0
 
 /* =======直立环PID参数========= */
-float balance_kp = -720.0;  // 刚出现低频震荡的值=-900，乘0.6=-540
-float balance_kd = 0.72;    // 刚出现高频震荡的值+1.5，乘0.6=+0.9
-float balance_angle = -1.0; // -1.0
+float balance_kp = -1250 ;  // 刚出现低频震荡的值=-900，乘0.6=-540
+float balance_kd = 0;    // 刚出现高频震荡的值+1.5，乘0.6=+0.9
+float balance_angle = 0; // -1.0
 /* =======速度环PID参数========= */
-float velocity_kp = 170.0; // +220
-float velocity_ki = 0.85;  // +1.10
+float velocity_kp = 0.0; // +220
+float velocity_ki = 0.0;  // +1.10
 /* =======转向环PID参数========= */
 float turn_kp = 0.5; // 0.5
 
